@@ -128,7 +128,8 @@ function convertToCSV(items, includeBirthDate) {
   const processedItems = items.map(item => ({
     type: item.type,
     guid: item.guid,
-    regionGuid: item.regionGuid,
+    //regionGuid: item.regionGuid,
+	objectNumber : item.keepingPlace?.objectNumber || "",
     number: item.number,
     gender: item.gender,
     animalCode: item.animalCode?.name || "",
