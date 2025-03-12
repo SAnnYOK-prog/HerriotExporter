@@ -1,7 +1,5 @@
 {
   "manifest_version": 3,
-  "name": "Herriot downloader",
-  "version": "1.0",
   "permissions": [
     "webRequest",
     "downloads",
