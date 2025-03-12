@@ -82,7 +82,7 @@ exportBtn.addEventListener('click', async () => {
     // Загрузка дат рождения
     if (loadBirthDate) {
       showStatus('Загрузка дополнительных данных...');
-      const DELAY = 300;
+      const DELAY = 30;
 
       for (let i = 0; i < allItems.length; i++) {
         if (isCancelled) break;
