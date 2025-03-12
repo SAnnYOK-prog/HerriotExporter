@@ -129,7 +129,7 @@ function convertToCSV(items, includeBirthDate) {
     type: item.type,
     guid: item.guid,
     //regionGuid: item.regionGuid,
-	objectNumber : item.keepingPlace?.objectNumber || "",
+    objectNumber : item.keepingPlace?.objectNumber || "",
     number: item.number,
     gender: item.gender,
     animalCode: item.animalCode?.name || "",
