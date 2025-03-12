@@ -5,15 +5,17 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
+		<table width=200px>
 		<button id="exportBtn">Загрузить CSV</button>
 		<div class="option">
 			<label>
-				<input type="checkbox" id="loadBirthDate">Загружать дату рождения
+				<input type="checkbox" id="loadBirthDate">Добавлять дату рождения
 			</label>
 			<div id="birthDateWarning" class="warning">Это замедлит загрузку!</div>
 		</div>
 		<div id="status"></div>
 		<button id="cancelBtn" style="display: none;">Отменить</button>
+		</table>
 		<script src="popup.js"></script>
 	</body>
 </html>
